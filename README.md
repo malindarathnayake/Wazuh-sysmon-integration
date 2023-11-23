@@ -1,6 +1,5 @@
 ## Wazuh-sysmon-integration
 
-
 https://wazuh.com/blog/monitoring-commonly-abused-windows-utilities/
 
 #Setup Sysmon and log collection
@@ -38,3 +37,9 @@ Step 4. Configure schedule task to run a powershell command at startup:
 Here’s more info on config file:
 
 https://github.com/SwiftOnSecurity/sysmon-config
+
+
+## Add better Wazuh Rules for sysmon
+
+https://github.com/socfortress/Wazuh-Rules
+
