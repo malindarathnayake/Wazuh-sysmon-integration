@@ -43,3 +43,8 @@ https://github.com/SwiftOnSecurity/sysmon-config
 
 https://github.com/socfortress/Wazuh-Rules
 
+Install as Root
+
+```curl -so ~/wazuh_socfortress_rules.sh https://raw.githubusercontent.com/socfortress/Wazuh-Rules/main/wazuh_socfortress_rules.sh && bash ~/wazuh_socfortress_rules.sh```
+
+
