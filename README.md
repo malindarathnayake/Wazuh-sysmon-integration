@@ -1,4 +1,4 @@
-# Wazuh-sysmon-integration
+## Wazuh-sysmon-integration
 
 
 https://wazuh.com/blog/monitoring-commonly-abused-windows-utilities/
@@ -21,3 +21,20 @@ On the Wazuh manager, edit the shared configuration file at /var/ossec/etc/share
   </localfile>
 </agent_config>
 ```
+
+## Deploy Sysmon via GPO 
+
+Step 1. Create a file “sysmon” in the path c:\program files\
+
+Step 2. Copy Sysmon64.exe and your config file (e.g. config.xml) to the new folder
+
+Step 3. modify NTFS rights so only admins have full rights to config file
+
+Step 4. Configure schedule task to run a powershell command at startup: 
+
+
+```Start-process Sysmon64.exe -arguments “-acceptEULA —I c:\program files\config.xml”```
+
+Here’s more info on config file:
+
+https://github.com/SwiftOnSecurity/sysmon-config
