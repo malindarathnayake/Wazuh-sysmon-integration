@@ -1,6 +1,3 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<!--                        NOTICE : This is a balanced generated output of Sysmon-modular with medium verbosity                   -->
-<!--                         due to the balanced nature of this configuration there will be potential blind spots                  -->
 <!--                         for more information go to https://github.com/olafhartong/sysmon-modular/wiki                         -->
 <Sysmon schemaversion="4.60">
 <script/>
