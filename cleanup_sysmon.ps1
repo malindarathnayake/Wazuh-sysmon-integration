@@ -8,3 +8,5 @@ Remove-Item -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Sysmon64" -Recurse -F
 fltmc unload SysmonDrv
 cmd /c "sc delete sysmon64"
 cmd /c "sc delete sysmondrv"
+
+#please reboot after this
